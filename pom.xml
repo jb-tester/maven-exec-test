@@ -47,6 +47,7 @@
                         <argument>
                             ${project.build.outputDirectory};${project.build.testOutputDirectory}
                         </argument>
+                        <!--<argument>-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5008</argument>-->
                         <argument>-Dmyvar=\"Hello world\"</argument>
                         <argument>a.b.c.Main</argument>
                     </arguments>
